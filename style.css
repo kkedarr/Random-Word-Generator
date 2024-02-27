@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: #d0fff4;
+}
+
+header {
+    background-color: #d0fff4;
+    color: #3572ff;
+    text-align: center;
+    padding: 1.25rem 0;
+    box-shadow: 0 0.3rem 0.5rem 0 #71b8ff; 
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 1.25rem auto;
+    padding: 1.25rem;
+    background-color: #71b8ff;
+    box-shadow: 0 0.3rem 0.5rem #71b8ff;
+    border-radius: 0.625rem;
+}
+
+.options {
+    margin-bottom: 1.25rem;
+}
+
+.options label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.625rem;
+    color: #000000;
+}
+
+.options input[type="range"], .options select, .options input[type="number"] {
+    width: 100%;
+    padding: 1.0625rem;
+    margin-bottom: 1.25rem;
+    border: 0.0625rem solid #dddddd;
+    border-radius: 0.8125rem;
+    background-color: #f9f9f9;
+    box-shadow: 0 0.13rem 0.3rem #668fff;
+    color: #000000;
+}
+
+.options select {
+    appearance: none;
+}
+
+.options button {
+    display: block;
+    width: 100%;
+    padding: 0.9375rem;
+    background-color: #3572ff;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.options button:hover {
+    background-color: #002680;
+}
+
+.output {
+    background-color: #ffffff;
+    padding: 1.875rem;
+    border-radius: 1rem;
+    border: 0.3rem solid #164ed1;
+    min-height: 200px;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem #7272ff;
+    color: #000000;
+}
